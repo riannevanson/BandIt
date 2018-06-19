@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { connect } from 'react-redux'
 import SwipePage from './SwipePage'
+import Card from './Card'
 
 
 class SwipePageContainer extends React.PureComponent {
@@ -11,6 +12,7 @@ class SwipePageContainer extends React.PureComponent {
 
     return <div>
       <SwipePage />
+      <Card />
       </div>
   }
 }

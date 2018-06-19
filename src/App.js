@@ -4,8 +4,8 @@ import './App.css'
 import { Route } from 'react-router-dom'
 import store from './store'
 import { Provider } from 'react-redux'
-import  SwipePageContainer  from './components/SwipePage/SwipePageContainer'
-import MatchContainer from './components/Match/MatchContainer'
+import  SwipePageContainer  from './components/SwipePageContainer'
+import MatchContainer from './components/MatchContainer'
 
 
 class App extends Component {

@@ -1,4 +1,4 @@
-const musicians = [
+const initialState = [
 
 {
   id: 1,
@@ -211,3 +211,16 @@ const musicians = [
   picture: './logo.svg'
 }
 ]
+
+
+const reducer = (state = initialState, action = {}) => {
+
+
+
+    return state
+  
+}
+
+
+
+export default reducer
