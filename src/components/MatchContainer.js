@@ -11,6 +11,7 @@ class MatchContainer extends React.PureComponent {
 
     return <div>
       { console.log(this.props) }
+      
       <Match />
       </div>
   }
