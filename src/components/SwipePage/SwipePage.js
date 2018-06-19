@@ -4,7 +4,7 @@ import {musicians }from '../lib/musicians'
 
 class SwipePage extends React.PureComponent {
   render() {
-
+<div>'hi'</div>
   }
 }
 
