@@ -9,12 +9,15 @@ class MatchContainer extends React.PureComponent {
   }
   render() {
 
+
+
     return <div>
+      {  console.log(this.props) }
       <Match />
       </div>
   }
 }
 const mapStateToProps = state => {
-  return { state }
+  return { match: state.MatchedArtists }
 }
-export default connect(null, {}) (MatchContainer)
+export default connect(mapStateToProps, {}) (MatchContainer)
