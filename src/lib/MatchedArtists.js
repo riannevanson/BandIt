@@ -1,3 +1,4 @@
+
 export const MatchedArtists = [
 
   {
@@ -47,5 +48,5 @@ export const MatchedArtists = [
     skillLevel: 1,
     genre: 'rock',
     picture: './logo.svg'
-  
-    },
+
+  }]

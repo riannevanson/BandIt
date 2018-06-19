@@ -4,9 +4,11 @@ import { musicians }from '../lib/musicians'
 
 class SwipePage extends React.PureComponent {
   render() {
-
+    return
+        <div>'hi'</div>
   }
 }
+
 
 const mapStateToProps = (state) => {
 musicians: state.musicians

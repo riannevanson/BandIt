@@ -1,3 +1,6 @@
 import { combineReducers } from 'redux'
-
-export default combineReducers({ MatchedArtists })
+import  musicians  from './musicians'
+import  MatchedArtists  from './MatchedArtists'
+export default combineReducers({
+musicians, MatchedArtists
+   })
