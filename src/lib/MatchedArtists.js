@@ -12,9 +12,6 @@ export const MatchedArtists =
   skillLevel: 2,
   genre: 'rock',
   picture: './logo.svg'
-  skillLevel: 1
-  picture: ./'logo.svg'
-
 },
 
 {
@@ -26,8 +23,6 @@ export const MatchedArtists =
   skillLevel: 1,
   genre: 'rock',
   picture: './logo.svg'
-  skillLevel: 1
-  picture: ./'logo.svg'
 },
 
 {
@@ -39,7 +34,6 @@ export const MatchedArtists =
   skillLevel: 1,
   genre: 'rock',
   picture: './logo.svg'
-  skillLevel: 1
-  picture: ./'logo.svg'
+
 }
 ]

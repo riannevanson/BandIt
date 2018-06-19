@@ -1,4 +1,4 @@
-const musicians = [
+const initialState = [
 
 {
   id: 1,
@@ -8,7 +8,7 @@ const musicians = [
   description: 'I am a very passioned beginner. I also love puppies.',
   skillLevel: 2,
   genre: 'rock',
-  picture: './logo.svg'
+  picture: './logo.svg',
 },
 
 {
@@ -211,3 +211,16 @@ const musicians = [
   picture: './logo.svg'
 }
 ]
+
+
+const reducer = (state = initialState, action = {}) => {
+
+
+
+    return state
+
+}
+
+
+
+export default reducer
