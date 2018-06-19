@@ -19,8 +19,8 @@ class App extends Component {
         </header>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
-          <Route exact path="/" component={ SwipePageContainer } />
-        <Route exact path="/Match/Match" component={ MatchContainer } />
+          <Route exact path={"/"} component={ SwipePageContainer } />
+          <Route exact path={"/match"} component={ MatchContainer } />
         </p>
       </div>
       </Provider>

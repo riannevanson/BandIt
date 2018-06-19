@@ -6,10 +6,15 @@ export const musicians = [
   age: 30,
   instrument: 'base guitar',
   description: 'I am a very passioned beginner. I also love puppies.',
+ featureCard
   skillLevel: 2,
   genre: 'rock',
   picture: './logo.svg'
 
+
+  skillLevel: 1
+  picture: ./'logo.svg'
+development
 },
 
 {
@@ -18,9 +23,14 @@ export const musicians = [
   age: 25,
   instrument: 'violin',
   description: 'I love the violin, but still learning',
+featureCard
   skillLevel: 1,
   genre: 'rock',
   picture: './logo.svg'
+
+  skillLevel: 1
+  picture: ./'logo.svg'
+ development
 },
 
 {
@@ -29,9 +39,14 @@ export const musicians = [
   age: 27,
   instrument: 'electric guitar',
   description: 'Let s rock and roll!',
+featureCard
   skillLevel: 1,
   genre: 'rock',
   picture: './logo.svg'
+
+  skillLevel: 1
+  picture: ./'logo.svg'
+ development
 },
 
 {
@@ -40,9 +55,14 @@ export const musicians = [
   age: 30,
   instrument: 'Singer',
   description: 'Singing under the shower',
+featureCard
   skillLevel: 1,
   genre: 'rock',
   picture: './logo.svg'
+
+  skillLevel: 1
+  picture: ./'logo.svg'
+development
 },
 
 {
@@ -51,9 +71,14 @@ export const musicians = [
   age: 42,
   instrument: 'base gitar',
   description: 'Music and beers is all I need',
+
   skillLevel: 1,
   genre: 'rock',
   picture: './logo.svg'
+
+  skillLevel: 1
+  picture: ./'logo.svg'
+
 },
 
 {
@@ -62,8 +87,13 @@ export const musicians = [
   age: 18,
   instrument: 'piano',
   description: 'Just starting and looking for friends',
+
   skillLevel: 3,
   picture: './logo.svg'
+
+  skillLevel: 1
+  picture: ./'logo.svg'
+
 },
 
 {
@@ -72,6 +102,7 @@ export const musicians = [
   age: 18,
   instrument: 'base gitar',
   description: 'Crazy music mike they say',
+
   skillLevel: 2,
   genre: 'rock',
   picture: './logo.svg'
@@ -206,5 +237,8 @@ export const musicians = [
   skillLevel: 2,
   genre: 'rock',
   picture: './logo.svg'
+
+  skillLevel: 1
+  picture: ./'logo.svg'
 }
 ]
