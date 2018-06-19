@@ -1,5 +1,6 @@
 import * as React from 'react'
-import Match from './Match/Match'
+import { connect } from 'react-redux'
+import Match from './Match'
 
 
 class MatchContainer extends React.PureComponent {
