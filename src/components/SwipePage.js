@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { connect } from 'react-redux'
-import {musicians }from '../lib/musicians'
+import { musicians }from '../lib/musicians'
 
 class SwipePage extends React.PureComponent {
   render() {
@@ -13,10 +13,3 @@ musicians: state.musicians
 }
 
 export default connect(mapStateToProps)(SwipePage)
-
-
-export default function Match(props) {
-  return (<div>
-        </div>)
-}
-development
