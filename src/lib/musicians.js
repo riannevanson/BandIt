@@ -1,4 +1,5 @@
-const musicians  = [
+export const musicians = [
+
 {
   id: 1,
   name: 'Rianne',
@@ -6,8 +7,9 @@ const musicians  = [
   instrument: 'base guitar',
   description: 'I am a very passioned beginner. I also love puppies.',
   skillLevel: 2,
-  genre: rock,
-  picture: ./logo.svg
+  genre: 'rock',
+  picture: './logo.svg'
+
 },
 
 {
@@ -17,8 +19,8 @@ const musicians  = [
   instrument: 'violin',
   description: 'I love the violin, but still learning',
   skillLevel: 1,
-  genre: rock,
-  picture: ./logo.svg
+  genre: 'rock',
+  picture: './logo.svg'
 },
 
 {
@@ -28,7 +30,8 @@ const musicians  = [
   instrument: 'electric guitar',
   description: 'Let s rock and roll!',
   skillLevel: 1,
-  picture: ./logo.svg
+  genre: 'rock',
+  picture: './logo.svg'
 },
 
 {
@@ -38,8 +41,8 @@ const musicians  = [
   instrument: 'Singer',
   description: 'Singing under the shower',
   skillLevel: 1,
-  genre: rock,
-  picture: ./logo.svg
+  genre: 'rock',
+  picture: './logo.svg'
 },
 
 {
@@ -49,8 +52,8 @@ const musicians  = [
   instrument: 'base gitar',
   description: 'Music and beers is all I need',
   skillLevel: 1,
-  genre: rock,
-  picture: ./logo.svg
+  genre: 'rock',
+  picture: './logo.svg'
 },
 
 {
@@ -60,7 +63,7 @@ const musicians  = [
   instrument: 'piano',
   description: 'Just starting and looking for friends',
   skillLevel: 3,
-  picture: ./logo.svg
+  picture: './logo.svg'
 },
 
 {
@@ -70,8 +73,8 @@ const musicians  = [
   instrument: 'base gitar',
   description: 'Crazy music mike they say',
   skillLevel: 2,
-  genre: rock,
-  picture: ./logo.svg
+  genre: 'rock',
+  picture: './logo.svg'
 }
 ,
 
@@ -82,7 +85,8 @@ const musicians  = [
   instrument: 'violin',
   description: 'Classical music',
   skillLevel: 1,
-  picture: ./logo.svg
+  genre: 'rock',
+  picture: './logo.svg'
 },
 
 {
@@ -91,8 +95,9 @@ const musicians  = [
   age: 27,
   instrument: 'electric guitar',
   description: 'Let s rock and roll!',
-  skillLevel: 1
-  picture: ./logo.svg
+  skillLevel: 1,
+  genre: 'rock',
+  picture: './logo.svg'
 },
 
 {
@@ -102,8 +107,8 @@ const musicians  = [
   instrument: 'Singer',
   description: 'Singing under the shower',
   skillLevel: 1,
-  genre: rock,
-  picture: ./logo.svg
+  genre: 'rock',
+  picture: './logo.svg'
 },
 
 {
@@ -113,8 +118,8 @@ const musicians  = [
   instrument: 'base gitar',
   description: 'Music and beers is all I need',
   skillLevel: 1,
-  genre: rock,
-  picture: ./logo.svg
+  genre: 'rock',
+  picture: './logo.svg'
 },
 
 {
@@ -124,7 +129,7 @@ const musicians  = [
   instrument: 'piano',
   description: 'Just starting and looking for friends',
   skillLevel: 3,
-  picture: ./logo.svg
+  picture: './logo.svg'
 },
 
 {
@@ -134,7 +139,7 @@ const musicians  = [
   instrument: 'base gitar',
   description: 'Crazy music mike they say',
   skillLevel: 2,
-  picture: ./logo.svg
+  picture: './logo.svg'
 }
 ,
 
@@ -145,7 +150,7 @@ const musicians  = [
   instrument: 'violin',
   description: 'I love the violin, but still learning',
   skillLevel: 1,
-  picture: ./logo.svg
+  picture: './logo.svg'
 },
 
 {
@@ -155,8 +160,8 @@ const musicians  = [
   instrument: 'electric guitar',
   description: 'Let s rock and roll!',
   skillLevel: 1,
-  genre: rock,
-  picture: ./logo.svg
+  genre: 'rock',
+  picture: './logo.svg'
 },
 
 {
@@ -166,8 +171,8 @@ const musicians  = [
   instrument: 'Singer',
   description: 'Singing under the shower',
   skillLevel: 1,
-  genre: rock,
-  picture: ./logo.svg
+  genre: 'rock',
+  picture: './logo.svg'
 },
 
 {
@@ -177,8 +182,8 @@ const musicians  = [
   instrument: 'base gitar',
   description: 'Music and beers is all I need',
   skillLevel: 1,
-  genre: rock,
-  picture: ./logo.svg
+  genre: 'rock',
+  picture: './logo.svg'
 },
 
 {
@@ -188,8 +193,8 @@ const musicians  = [
   instrument: 'piano',
   description: 'Just starting and looking for friends',
   skillLevel: 3,
-  genre: rock,
-  picture: ./logo.svg
+  genre: 'rock',
+  picture: './logo.svg'
 },
 
 {
@@ -199,7 +204,7 @@ const musicians  = [
   instrument: 'base gitar',
   description: 'Crazy music mike they say',
   skillLevel: 2,
-  genre: rock,
-  picture: ./logo.svg
+  genre: 'rock',
+  picture: './logo.svg'
 }
 ]
