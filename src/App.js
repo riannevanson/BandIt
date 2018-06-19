@@ -4,8 +4,8 @@ import './App.css'
 import { Route } from 'react-router-dom'
 import store from './store'
 import { Provider } from 'react-redux'
-import  SwipePageContainer  from './components/SwipePage/SwipePageContainer'
-import MatchContainer from './components/Match/MatchContainer'
+import  SwipePageContainer  from './components/SwipePageContainer'
+import MatchContainer from './components/MatchContainer'
 
 
 class App extends Component {
@@ -17,11 +17,11 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <p className="App-intro">
+        <main className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
           <Route exact path={"/"} component={ SwipePageContainer } />
           <Route exact path={"/match"} component={ MatchContainer } />
-        </p>
+        </main>
       </div>
       </Provider>
 
