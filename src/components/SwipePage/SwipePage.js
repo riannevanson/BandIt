@@ -13,3 +13,10 @@ musicians: state.musicians
 }
 
 export default connect(mapStateToProps)(SwipePage)
+
+
+export default function Match(props) {
+  return (<div>
+        </div>)
+}
+development
