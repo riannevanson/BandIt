@@ -5,12 +5,12 @@ import { newCard } from "../actions/swipe";
 
 class Card extends React.PureComponent {
   activeCard = () => {
-    this.props.newCard(logic.randomCard());
+    this.props.newCard(logic.randomCard(this.props.musicians));
   };
 
   componentDidMount() {
     console.log("I get called!");
-    this.props.newCard(logic.randomCard());
+    this.props.newCard(logic.randomCard(this.props.musicians));
   }
 
   render() {
