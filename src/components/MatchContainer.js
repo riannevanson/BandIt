@@ -8,13 +8,13 @@ class MatchContainer extends React.PureComponent {
   render() {
     console.log(this.props);
     return (
-      <div>
-        <Match />
-        <div className="matchContainer">
+      <div className="matchContainerPage">
+<h1>Matches:</h1>
+        <div className="matchCardsContainer">
           {" "}
           {this.props.MatchedArtists.map(match => {
             return (
-              <div className="matchesContainer">
+
                 <div className="matchCard">
                   <img className="matchImage" src={match.picture} />
                   <div className="textualContent">
@@ -24,7 +24,7 @@ class MatchContainer extends React.PureComponent {
                     {match.description}
                   </div>
                 </div>
-              </div>
+
             );
           })}
         </div>
