@@ -8,15 +8,29 @@ class MatchContainer extends React.PureComponent {
 
   }
   render() {
-
+console.log(this.props)
     return <div>
-      { console.log(this.props) }
-      
       <Match />
+      <div>
+        {" "}
+        {this.props.MatchedArtists.map(match => {
+          return (
+            <div className="matchCard">
+              <img className="matchImage" src={match.picture}/>
+              <h2>{match.name}</h2>
+              <h4>{match.description}</h4>
+
+            </div>
+          );
+        })}
+      </div>
+'hello max and alice'
       </div>
   }
 }
-const mapStateToProps = state => {
-  return { match: state.MatchedArtists }
-}
-export default connect(mapStateToProps) (MatchContainer)
+const mapStateToProps = function(state) {
+  return {
+    MatchedArtists: state.MatchedArtists
+  };
+};
+export default connect(mapStateToProps, {}) (MatchContainer)

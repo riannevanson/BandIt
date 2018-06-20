@@ -1,9 +1,7 @@
-import * as React from 'react'
+import * as React from 'react';
 
 export default function Match(props) {
-  return (
-    <div>
-      
-    </div>
-  )
+  return (<div>
+
+        </div>)
 }

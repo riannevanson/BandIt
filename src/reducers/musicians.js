@@ -1,12 +1,13 @@
-import  { musicians } from '../lib/musicians'
+import {musicians} from '../lib/musicians'
+
 const reducer = (state = musicians, action = {}) => {
 
 
-  return state
 
-
-
+    return state
 
 }
+
+
 
 export default reducer

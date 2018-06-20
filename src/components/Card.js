@@ -1,8 +1,16 @@
 import * as React from "react";
 import { connect } from "react-redux";
-
+import * as logic from "../lib/logic"
+import {newCard} from '../actions/swipe'
 
 class Card extends React.PureComponent {
+
+activeCard = () => {
+    const randomCard = logic.randomCard()
+    return this.props.newCard(randomCard)
+  }
+
+
   render() {
     console.log(this.props);
     return (
@@ -10,8 +18,11 @@ class Card extends React.PureComponent {
         {" "}
         {this.props.musicians.map(musician => {
           return (
-            <div>
+            <div className="card">
+              <img className="cardImage" src={musician.picture}/>
               <h2>{musician.name}</h2>
+              <h4>{musician.description}</h4>
+              <button onClick = {this.activeCard}>Next Match</button>
             </div>
           );
         })}
@@ -26,4 +37,4 @@ const mapStateToProps = function(state) {
   };
 };
 
-export default connect(mapStateToProps)(Card);
+export default connect(mapStateToProps, {newCard})(Card);
