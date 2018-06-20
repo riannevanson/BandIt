@@ -10,7 +10,7 @@ class MatchContainer extends React.PureComponent {
     return (
 
       <div>
-        <Buttons />
+        
         <Match />
         <div className="matchContainer">
           {" "}

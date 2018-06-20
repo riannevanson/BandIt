@@ -20,7 +20,7 @@ class App extends Component {
         <main className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
           <Route exact path={"/"} component={ SwipePageContainer } />
-          <Route exact path={"/match"} component={ MatchContainer } />
+          {/* <Route exact path={"/match"} component={ MatchContainer } /> */}
         </main>
       </div>
       </Provider>

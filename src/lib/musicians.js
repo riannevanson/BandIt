@@ -188,13 +188,13 @@ export const musicians = [
 
 {
   id: 1,
-  name: 'Hank',
+  name: 'Alice',
   age: 18,
   instrument: 'piano',
-  description: 'Just starting and looking for friends',
+  description: 'I do not understand how pianos work yet but i will, one day',
   skillLevel: 3,
   genre: 'rock',
-  picture: './logo.svg'
+  picture: logo
 },
 
 {
