@@ -30,7 +30,7 @@
 .matchCard{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 100%;
+    width: 60%;
     padding: 2rem;
 }
 
@@ -64,4 +64,18 @@ align-items: center;
 
 .textualContent span{
   font-weight: bold;
+}
+
+.swipePageContainer{
+  display: flex;
+  justify-content: space-around;
+}
+.cardAndButtons{
+  width: 30%;
+}
+
+
+.matchesContainer{
+  width: 60%;
+  height: 100%;
 }
