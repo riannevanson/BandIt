@@ -1,8 +1,8 @@
-import MatchedArtists from './MatchedArtists'
-const reducer = (state = MatchedArtists, action = {}) => {
-
-   return state
-
-}
-
-export default reducer
+export default (state = [], action = {}) => {
+  switch (action.type) {
+    case 'SET_LIKE':
+      return [...state, action.payload]
+    default:
+      return state;
+  }
+};

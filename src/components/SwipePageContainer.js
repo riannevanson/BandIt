@@ -1,22 +1,23 @@
-import * as React from 'react'
-import { connect } from 'react-redux'
-import SwipePage from './SwipePage'
-import Card from './Card'
-
+import * as React from "react";
+import { connect } from "react-redux";
+import Card from "./Card";
+import Buttons from "./Buttons";
 
 class SwipePageContainer extends React.PureComponent {
-  componentDidMount(){
-
-  }
+  componentDidMount() {}
   render() {
+    return (
+      <div>
+        <div class="swipePageContainer">
+          <Card />
+          <Buttons />
 
-    return <div>
-      <SwipePage />
-      <Card />
       </div>
+    </div>
+    );
   }
 }
 const mapStateToProps = state => {
-  return { state }
-}
-export default connect(mapStateToProps) (SwipePageContainer)
+  return { state };
+};
+export default connect(mapStateToProps)(SwipePageContainer);

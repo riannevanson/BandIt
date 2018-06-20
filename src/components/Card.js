@@ -1,37 +1,31 @@
 import * as React from "react";
 import { connect } from "react-redux";
-import * as logic from "../lib/logic"
-import {newCard} from '../actions/swipe'
+import * as logic from "../lib/logic";
+import { newCard } from "../actions/swipe";
 
 class Card extends React.PureComponent {
-
   activeCard = () => {
-     this.props.newCard(logic.randomCard())
-  }
+    this.props.newCard(logic.randomCard());
+  };
 
-  componentDidMount(){
-    console.log('I get called!')
-    this.props.newCard(logic.randomCard())
+  componentDidMount() {
+    console.log("I get called!");
+    this.props.newCard(logic.randomCard());
   }
 
   render() {
     console.log(this.props);
     return (
-      <div>
-        {" "}
-        {/* {this.props.musicians.map(musician => {
-          return (
-            <div className="card">
-              <img className="cardImage" src={musician.picture}/>
-              <h2>{musician.name}</h2>
-              <h4>{musician.description}</h4>
+      <div className="cardContainer">
+        <div className="card">
+          <img className="cardImage" src={this.props.randomUser.picture} />
+          <div className="textualContent"> <span>{this.props.randomUser.name}</span>
+          <br/><br/>
+          {this.props.randomUser.description}
+</div>
+        </div>
 
-            </div>
-          );
-        })} */}
-        <h1> {this.props.randomUser.name}</h1>
-
-    <button onClick = {this.activeCard}>Next Match</button>
+        {/* <button onClick={this.activeCard}>Next Match</button> */}
       </div>
     );
   }
@@ -44,4 +38,4 @@ const mapStateToProps = function(state) {
   };
 };
 
-export default connect(mapStateToProps, {newCard})(Card);
+export default connect(mapStateToProps, { newCard })(Card);

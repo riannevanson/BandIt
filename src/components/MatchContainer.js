@@ -1,31 +1,35 @@
-import * as React from 'react'
-import { connect } from 'react-redux'
-import Match from './Match'
-
+import * as React from "react";
+import { connect } from "react-redux";
+import Match from "./Match";
+import Buttons from "./Buttons"
 
 class MatchContainer extends React.PureComponent {
-  componentDidMount(){
-
-  }
+  componentDidMount() {}
   render() {
-console.log(this.props)
-    return <div>
-      <Match />
-      <div>
-        {" "}
-        {this.props.MatchedArtists.map(match => {
-          return (
-            <div className="matchCard">
-              <img className="matchImage" src={match.picture}/>
-              <h2>{match.name}</h2>
-              <h4>{match.description}</h4>
+    console.log(this.props);
+    return (
 
-            </div>
-          );
-        })}
+      <div>
+        {this.props.MatchedArtists}
+        <Match />
+        <div className="matchContainer">
+          {" "}
+          {this.props.MatchedArtists.map(match => {
+            return (
+              <div className="matchCard">
+                <img className="matchImage" src={match.picture} />
+                <div className="textualContent">
+                  {match.name}
+                  <br />
+                  <br />
+                  {match.description}
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </div>
-'hello max and alice'
-      </div>
+    );
   }
 }
 const mapStateToProps = function(state) {
@@ -33,4 +37,4 @@ const mapStateToProps = function(state) {
     MatchedArtists: state.MatchedArtists
   };
 };
-export default connect(mapStateToProps, {}) (MatchContainer)
+export default connect(mapStateToProps, {})(MatchContainer);
