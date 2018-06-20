@@ -2,6 +2,7 @@ import * as React from "react";
 import { connect } from "react-redux";
 import Card from "./Card";
 import Buttons from "./Buttons";
+import
 
 class SwipePageContainer extends React.PureComponent {
   componentDidMount() {}

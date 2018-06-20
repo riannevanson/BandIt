@@ -14,7 +14,7 @@ class Buttons extends Component {
 
  	newLike = () => {
 		this.props.setLike(this.props.randomUser)
-		console.log('im getting calle like yes')
+		console.log('im getting called I like it, yes')
 		this.activeCard()
 	}
 

@@ -19,10 +19,13 @@ class Card extends React.PureComponent {
       <div className="cardContainer">
         <div className="card">
           <img className="cardImage" src={this.props.randomUser.picture} />
-          <div className="textualContent"> <span>{this.props.randomUser.name}</span>
-          <br/><br/>
-          {this.props.randomUser.description}
-</div>
+          <div className="textualContent">
+            {" "}
+            <span>{this.props.randomUser.name}</span>
+            <br />
+            <br />
+            {this.props.randomUser.description}
+          </div>
         </div>
 
         {/* <button onClick={this.activeCard}>Next Match</button> */}

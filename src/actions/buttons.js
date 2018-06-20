@@ -6,7 +6,7 @@ export function setLike(randomUser) {
   return {
     type: SET_LIKE,
     payload: randomUser
-}
+  }
 }
 
 export function setDislike() {
