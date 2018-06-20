@@ -32,6 +32,7 @@
     transition: 0.3s;
     width: 60%;
     padding: 2rem;
+    background-color: green;
 }
 
 .matchImage {
@@ -54,8 +55,8 @@
 
 .swipePageContainer{
   display: flex;
-align-items: center;
-  flex-direction: column;
+justify-content: center;
+
 }
 .textualContent{
   font-size: 1.3rem;
@@ -66,16 +67,19 @@ align-items: center;
   font-weight: bold;
 }
 
-.swipePageContainer{
-  display: flex;
-  justify-content: space-around;
-}
 .cardAndButtons{
   width: 30%;
 }
 
 
-.matchesContainer{
+.MatchContainer{
   width: 60%;
   height: 100%;
+  background-color: grey;
+}
+
+.matchCardsContainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
