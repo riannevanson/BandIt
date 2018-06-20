@@ -18,6 +18,12 @@ class Buttons extends Component {
 		this.activeCard()
 	}
 
+	newDislike = () => {
+		this.props.setDislike(this.props.randomUser)
+		console.log('im getting called dislike, nooooo')
+		this.activeCard()
+	}
+
   render() {
     console.log(this.props);
 
@@ -26,7 +32,7 @@ class Buttons extends Component {
     return (
       <div>
 
-				<button className="like-dislike" onClick={this.activeCard}>
+				<button className="like-dislike" onClick={this.newDislike}>
           Nah...
         </button>
 

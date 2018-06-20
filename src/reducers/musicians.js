@@ -1,13 +1,15 @@
-import {musicians} from '../lib/musicians'
+import { musicians } from "../lib/musicians";
 
-const reducer = (state = musicians, action = {}) => {
-
-
-
-    return state
-
-}
-
-
-
-export default reducer
+export default (state = musicians, action = {}) => {
+  switch (action.type) {
+    case "SET_DISLIKE": {
+      return {
+        musicians: musicians.filter(
+          (item, index) => index !== action.index
+        )
+      };
+    }
+    default:
+      return state;
+  }
+};

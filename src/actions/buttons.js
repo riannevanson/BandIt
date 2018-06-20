@@ -9,9 +9,10 @@ export function setLike(randomUser) {
   }
 }
 
-export function setDislike() {
+export function setDislike(randomUser) {
+  console.log('i am not being liked boohoo')
   return {
     type: SET_DISLIKE,
-    payload: []
+    payload: randomUser
   }
 }

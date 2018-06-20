@@ -14,7 +14,7 @@ export const musicians = [
 },
 
 {
-  id: 1,
+  id: 2,
   name: 'Mike',
   age: 25,
   instrument: 'violin',
@@ -25,7 +25,7 @@ export const musicians = [
 },
 
 {
-  id: 1,
+  id: 3,
   name: 'Max',
   age: 27,
   instrument: 'electric guitar',
@@ -36,7 +36,7 @@ export const musicians = [
 },
 
 {
-  id: 1,
+  id: 4,
   name: 'Alex',
   age: 30,
   instrument: 'Singer',
@@ -47,7 +47,7 @@ export const musicians = [
 },
 
 {
-  id: 1,
+  id: 5,
   name: 'Harry',
   age: 42,
   instrument: 'base gitar',
@@ -58,7 +58,7 @@ export const musicians = [
 },
 
 {
-  id: 1,
+  id: 6,
   name: 'Hank',
   age: 18,
   instrument: 'piano',
@@ -79,7 +79,7 @@ export const musicians = [
 },
 
 {
-  id: 1,
+  id: 7,
   name: 'Mose',
   age: 25,
   instrument: 'violin',
@@ -90,7 +90,7 @@ export const musicians = [
 },
 
 {
-  id: 1,
+  id: 8,
   name: 'Max',
   age: 27,
   instrument: 'electric guitar',
@@ -112,7 +112,7 @@ export const musicians = [
 },
 
 {
-  id: 1,
+  id: 9,
   name: 'Harry',
   age: 42,
   instrument: 'base gitar',
@@ -123,7 +123,7 @@ export const musicians = [
 },
 
 {
-  id: 1,
+  id: 10,
   name: 'Hank',
   age: 18,
   instrument: 'piano',
@@ -144,7 +144,7 @@ export const musicians = [
 
 
 {
-  id: 1,
+  id: 11,
   name: 'Amanda',
   age: 25,
   instrument: 'violin',
@@ -154,7 +154,7 @@ export const musicians = [
 },
 
 {
-  id: 1,
+  id: 12,
   name: 'Maxime',
   age: 27,
   instrument: 'electric guitar',
@@ -187,7 +187,7 @@ export const musicians = [
 },
 
 {
-  id: 1,
+  id: 13,
   name: 'Alice',
   age: 18,
   instrument: 'piano',
@@ -198,7 +198,7 @@ export const musicians = [
 },
 
 {
-  id: 1,
+  id: 14,
   name: 'Tasos',
   age: 18,
   instrument: 'base gitar',
