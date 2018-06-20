@@ -1,4 +1,4 @@
-const musicians = [
+export  const musicians = [
 
 {
   id: 1,
@@ -8,7 +8,7 @@ const musicians = [
   description: 'I am a very passioned beginner. I also love puppies.',
   skillLevel: 2,
   genre: 'rock',
-  picture: './logo.svg'
+  picture: './logo.svg',
 },
 
 {
@@ -38,7 +38,6 @@ const musicians = [
   name: 'Alex',
   age: 30,
   instrument: 'Singer',
-  description: 'Singing under the shower',
   skillLevel: 1,
   genre: 'rock',
   picture: './logo.svg'
@@ -50,11 +49,9 @@ const musicians = [
   age: 42,
   instrument: 'base gitar',
   description: 'Music and beers is all I need',
-
   skillLevel: 1,
   genre: 'rock',
   picture: './logo.svg'
-
 },
 
 {
@@ -63,10 +60,8 @@ const musicians = [
   age: 18,
   instrument: 'piano',
   description: 'Just starting and looking for friends',
-
   skillLevel: 3,
   picture: './logo.svg'
-
 },
 
 {
@@ -78,8 +73,7 @@ const musicians = [
   skillLevel: 2,
   genre: 'rock',
   picture: './logo.svg'
-}
-,
+},
 
 {
   id: 1,
@@ -143,8 +137,8 @@ const musicians = [
   description: 'Crazy music mike they say',
   skillLevel: 2,
   picture: './logo.svg'
-}
-,
+},
+
 
 {
   id: 1,
@@ -209,5 +203,6 @@ const musicians = [
   skillLevel: 2,
   genre: 'rock',
   picture: './logo.svg'
+
 }
 ]

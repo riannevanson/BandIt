@@ -1,7 +1,11 @@
-import MatchedArtists from './MatchedArtists'
+import  { MatchedArtists } from '../lib/MatchedArtists'
 const reducer = (state = MatchedArtists, action = {}) => {
 
-   return state
+
+  return state
+
+
+
 
 }
 
