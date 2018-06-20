@@ -1,6 +1,7 @@
 import * as React from "react";
 import { connect } from "react-redux";
 
+
 class Card extends React.PureComponent {
   render() {
     console.log(this.props);

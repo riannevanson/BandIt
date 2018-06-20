@@ -19,4 +19,4 @@ class SwipePageContainer extends React.PureComponent {
 const mapStateToProps = state => {
   return { state }
 }
-export default connect(null, {}) (SwipePageContainer)
+export default connect(mapStateToProps) (SwipePageContainer)

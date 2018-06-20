@@ -1,4 +1,4 @@
-const musicians = [
+export  const musicians = [
 
 {
   id: 1,
