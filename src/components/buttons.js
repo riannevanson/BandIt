@@ -9,7 +9,7 @@ class Buttons extends Component {
 
 
 	activeCard = () => {
-		this.props.newCard(logic.randomCard());
+		this.props.newCard(logic.randomCard(this.props.musicians));
 	};
 
  	newLike = () => {
