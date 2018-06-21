@@ -7,14 +7,14 @@ import { Provider } from 'react-redux'
 import  SwipePageContainer  from './components/SwipePageContainer'
 
 import Card from './components/Card'
-import SignIn from './components/SignIn'
+import SettingsContainer from './components/SettingsContainer'
 import LOGO1 from './lib/icons/LOGO1.svg'
 
 
 class App extends Component {
   render() {
     return (
-    
+
      <Provider store={store}>
       <div className="App">
         <header className="App-header">
@@ -25,7 +25,7 @@ class App extends Component {
         <main className="App-intro">
 
           <Route exact path={"/"} component={ SwipePageContainer } />
-          <Route exact path={"/signin"} component={ SignIn } />
+          <Route exact path={"/settings"} component={ SettingsContainer } />
         </main>
       </div>
       </Provider>
