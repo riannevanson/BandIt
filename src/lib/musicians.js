@@ -6,6 +6,12 @@ import img4 from './images/4.png'
 import img5 from './images/5.png'
 import img6 from './images/6.png'
 import img7 from './images/7.png'
+import img8 from './images/8.png'
+import img9 from './images/9.png'
+import img10 from './images/10.png'
+import img11 from './images/11.png'
+import img12 from './images/12.png'
+import img13 from './images/13.png'
 
 
 export const musicians = [
@@ -23,7 +29,7 @@ export const musicians = [
 
 {
   id: 2,
-  name: 'Mike',
+  name: 'Alice',
   age: 25,
   instrument: 'violin',
   description: 'I love the violin, but still learning',
@@ -40,44 +46,44 @@ export const musicians = [
   description: 'Let s rock and roll!',
   skillLevel: 1,
   genre: 'rock',
-  picture: img1
-},
-
-{
-  id: 4,
-  name: 'Alex',
-  age: 30,
-  instrument: 'Singer',
-  description: 'Let s rock and roll!',
-  skillLevel: 1,
-  genre: 'rock',
   picture: img2
 },
 
 {
-  id: 5,
-  name: 'Harry',
-  age: 42,
-  instrument: 'base gitar',
-  description: 'Music and beers is all I need',
+  id: 4,
+  name: 'Sijmen',
+  age: 30,
+  instrument: 'Singer',
+  description: 'Let s rock and roll!',
   skillLevel: 1,
   genre: 'rock',
   picture: img3
 },
 
 {
-  id: 6,
-  name: 'Hank',
-  age: 18,
-  instrument: 'piano',
-  description: 'Just starting and looking for friends',
-  skillLevel: 3,
+  id: 5,
+  name: 'Rein',
+  age: 42,
+  instrument: 'base gitar',
+  description: 'Music and beers is all I need',
+  skillLevel: 1,
+  genre: 'rock',
   picture: img4
 },
 
 {
+  id: 6,
+  name: 'Freddy',
+  age: 18,
+  instrument: 'piano',
+  description: 'Just starting and looking for friends',
+  skillLevel: 3,
+  picture: img5
+},
+
+{
   id: 1,
-  name: 'Mike',
+  name: 'Mohammed',
   age: 18,
   instrument: 'base gitar',
   description: 'Crazy music mike they say',
@@ -105,7 +111,7 @@ export const musicians = [
   description: 'Let s rock and roll!',
   skillLevel: 1,
   genre: 'rock',
-  picture: img7
+  picture: img6
 },
 
 {
@@ -116,7 +122,7 @@ export const musicians = [
   description: 'Singing under the shower',
   skillLevel: 1,
   genre: 'rock',
-  picture: img1
+  picture: img7
 },
 
 {
@@ -127,7 +133,7 @@ export const musicians = [
   description: 'Music and beers is all I need',
   skillLevel: 1,
   genre: 'rock',
-  picture: img2
+  picture: img8
 },
 
 {
@@ -137,17 +143,17 @@ export const musicians = [
   instrument: 'piano',
   description: 'Just starting and looking for friends',
   skillLevel: 3,
-  picture: img1
+  picture: img9
 },
 
 {
   id: 1,
-  name: 'Mike',
+  name: 'Bas',
   age: 18,
   instrument: 'base gitar',
   description: 'Crazy music mike they say',
   skillLevel: 2,
-  picture: img3
+  picture: img10
 },
 
 
@@ -158,7 +164,7 @@ export const musicians = [
   instrument: 'violin',
   description: 'I love the violin, but still learning',
   skillLevel: 1,
-  picture: img4
+  picture: img10
 },
 
 {
@@ -169,51 +175,30 @@ export const musicians = [
   description: 'Let s rock and roll!',
   skillLevel: 1,
   genre: 'rock',
-  picture: img5
+  picture: img11
 },
 
 {
-  id: 1,
+  id: 13,
   name: 'Ally',
   age: 30,
   instrument: 'Singer',
   description: 'Singing under the shower',
   skillLevel: 1,
   genre: 'rock',
-  picture: img6
+  picture: img12
 },
 
 {
-  id: 1,
+  id: 14,
   name: 'Rietje',
   age: 42,
   instrument: 'base gitar',
   description: 'Music and beers is all I need',
   skillLevel: 1,
   genre: 'rock',
-  picture: img7
+  picture: img13
 },
 
-{
-  id: 13,
-  name: 'Alice',
-  age: 18,
-  instrument: 'piano',
-  description: 'I do not understand how pianos work yet but i will, one day',
-  skillLevel: 3,
-  genre: 'rock',
-  picture: img2
-},
 
-{
-  id: 14,
-  name: 'Tasos',
-  age: 18,
-  instrument: 'base gitar',
-  description: 'Crazy music mike they say',
-  skillLevel: 2,
-  genre: 'rock',
-  picture: img1
-
-}
 ]
