@@ -1,4 +1,12 @@
 import logo from './images/logo.svg'
+import img1 from './images/1.png'
+import img2 from './images/2.png'
+import img3 from './images/3.png'
+import img4 from './images/4.png'
+import img5 from './images/5.png'
+import img6 from './images/6.png'
+import img7 from './images/7.png'
+
 
 export const musicians = [
 
@@ -10,7 +18,7 @@ export const musicians = [
   description: 'I am a very passioned beginner. I also love puppies.',
   skillLevel: 2,
   genre: 'rock',
-  picture: logo
+  picture: img1
 },
 
 {
@@ -21,7 +29,7 @@ export const musicians = [
   description: 'I love the violin, but still learning',
   skillLevel: 1,
   genre: 'rock',
-  picture: logo
+  picture: img1
 },
 
 {
@@ -32,7 +40,7 @@ export const musicians = [
   description: 'Let s rock and roll!',
   skillLevel: 1,
   genre: 'rock',
-  picture: logo
+  picture: img1
 },
 
 {
@@ -43,7 +51,7 @@ export const musicians = [
   description: 'Let s rock and roll!',
   skillLevel: 1,
   genre: 'rock',
-  picture: logo
+  picture: img2
 },
 
 {
@@ -54,7 +62,7 @@ export const musicians = [
   description: 'Music and beers is all I need',
   skillLevel: 1,
   genre: 'rock',
-  picture: logo
+  picture: img3
 },
 
 {
@@ -64,7 +72,7 @@ export const musicians = [
   instrument: 'piano',
   description: 'Just starting and looking for friends',
   skillLevel: 3,
-  picture: logo
+  picture: img4
 },
 
 {
@@ -75,7 +83,7 @@ export const musicians = [
   description: 'Crazy music mike they say',
   skillLevel: 2,
   genre: 'rock',
-  picture: logo
+  picture: img5
 },
 
 {
@@ -86,7 +94,7 @@ export const musicians = [
   description: 'Classical music',
   skillLevel: 1,
   genre: 'rock',
-  picture: logo
+  picture: img6
 },
 
 {
@@ -97,7 +105,7 @@ export const musicians = [
   description: 'Let s rock and roll!',
   skillLevel: 1,
   genre: 'rock',
-  picture: logo
+  picture: img7
 },
 
 {
@@ -108,7 +116,7 @@ export const musicians = [
   description: 'Singing under the shower',
   skillLevel: 1,
   genre: 'rock',
-  picture: logo
+  picture: img1
 },
 
 {
@@ -119,7 +127,7 @@ export const musicians = [
   description: 'Music and beers is all I need',
   skillLevel: 1,
   genre: 'rock',
-  picture: logo
+  picture: img2
 },
 
 {
@@ -129,7 +137,7 @@ export const musicians = [
   instrument: 'piano',
   description: 'Just starting and looking for friends',
   skillLevel: 3,
-  picture: logo
+  picture: img1
 },
 
 {
@@ -139,7 +147,7 @@ export const musicians = [
   instrument: 'base gitar',
   description: 'Crazy music mike they say',
   skillLevel: 2,
-  picture: logo
+  picture: img3
 },
 
 
@@ -150,7 +158,7 @@ export const musicians = [
   instrument: 'violin',
   description: 'I love the violin, but still learning',
   skillLevel: 1,
-  picture: logo
+  picture: img4
 },
 
 {
@@ -161,7 +169,7 @@ export const musicians = [
   description: 'Let s rock and roll!',
   skillLevel: 1,
   genre: 'rock',
-  picture: logo
+  picture: img5
 },
 
 {
@@ -172,7 +180,7 @@ export const musicians = [
   description: 'Singing under the shower',
   skillLevel: 1,
   genre: 'rock',
-  picture: logo
+  picture: img6
 },
 
 {
@@ -183,7 +191,7 @@ export const musicians = [
   description: 'Music and beers is all I need',
   skillLevel: 1,
   genre: 'rock',
-  picture: logo
+  picture: img7
 },
 
 {
@@ -194,7 +202,7 @@ export const musicians = [
   description: 'I do not understand how pianos work yet but i will, one day',
   skillLevel: 3,
   genre: 'rock',
-  picture: logo
+  picture: img2
 },
 
 {
@@ -205,7 +213,7 @@ export const musicians = [
   description: 'Crazy music mike they say',
   skillLevel: 2,
   genre: 'rock',
-  picture: logo
+  picture: img1
 
 }
 ]
