@@ -5,7 +5,8 @@ import Buttons from "./buttons";
 import LOGO1 from '../lib/icons/LOGO1.svg'
 
 class MatchContainer extends React.PureComponent {
-  componentDidMount() {}
+
+
   render() {
     console.log(this.props);
     return (

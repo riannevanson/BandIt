@@ -7,6 +7,7 @@ import MatchContainer from "./MatchContainer";
 
 class SwipePageContainer extends React.PureComponent {
   componentDidMount() {}
+  
   render() {
     return (
       <div>
