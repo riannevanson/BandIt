@@ -33,15 +33,15 @@ class Buttons extends Component {
     console.log(this.props);
 
     return (
-		
+
       <div className="likeButtonContainer">
 
 				<div className="like-dislike" onClick={this.newDislike}>
-          <img className="image-like-dislike" src={Like} />
+          <img className="image-like-like" src={Dislike} />
         </div>
 
         <div className="like-dislike" onClick={this.newLike}>
-        <img className="image-like-like" src={Dislike} />
+        <img className="image-like-dislike" src={Like} />
 			</div>
 
 
