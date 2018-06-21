@@ -4,7 +4,8 @@ import Match from "./Match";
 import Buttons from "./buttons";
 
 class MatchContainer extends React.PureComponent {
-  componentDidMount() {}
+
+
   render() {
     console.log(this.props);
     return (
