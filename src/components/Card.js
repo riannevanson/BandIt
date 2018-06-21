@@ -20,7 +20,16 @@ class Card extends React.PureComponent {
             <span>{this.props.randomUser.name}</span>
             <br />
             <br />
+            instrument: {this.props.randomUser.instrument}
+            <br />
+            <br />
+            genre: {this.props.randomUser.genre}
+            <br />
+            <br />
             {this.props.randomUser.description}
+            <br />
+            <br />
+            SkillLevel: {this.props.randomUser.skillLevel}
           </div>
         </div>
 
