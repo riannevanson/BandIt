@@ -2,7 +2,7 @@ import * as React from "react";
 import { connect } from "react-redux";
 import Card from "./Card";
 import Buttons from "./buttons";
-import MatchContainer from "./MatchContainer";
+import Settings from "./Settings";
 
 class SettingsContainer extends React.PureComponent {
   render() {

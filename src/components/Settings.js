@@ -8,13 +8,12 @@ class Settings extends React.PureComponent {
   render() {
     console.log(this.props);
     return (
+      'hio'
 
-    );
-  }
+)
+
+
 }
-const mapStateToProps = function(state) {
-  return {
+}
 
-  };
-};
-export default connect(mapStateToProps, {})(Settings);
+export default connect(null, {})(Settings);
