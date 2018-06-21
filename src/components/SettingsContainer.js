@@ -1,18 +1,16 @@
 import * as React from "react";
 import { connect } from "react-redux";
-import Match from "./Match";
 import Card from "./Card";
 import Buttons from "./buttons";
-import LOGO1 from "../lib/icons/LOGO1.svg";
-import MatchContainer from "./MatchContainer";
+import Settings from "./Settings";
 
-class SignInContainer extends React.PureComponent {
+class SettingsContainer extends React.PureComponent {
   render() {
     console.log(this.props);
     return (      <div>
             <div className="swipePageContainer">
-              <div className="SignInContainer">
-                <SignIn />
+              <div className="Settings">
+                <Settings />
               </div>
               <div className="cardAndButtons">
                 <Card />
@@ -29,7 +27,7 @@ class SignInContainer extends React.PureComponent {
 }
 const mapStateToProps = function(state) {
   return {
-    MatchedArtists: state.MatchedArtists
+
   };
 };
-export default connect(mapStateToProps, {})(SignIn);
+export default connect(mapStateToProps, {})(Settings);
