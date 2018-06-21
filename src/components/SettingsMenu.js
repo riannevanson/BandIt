@@ -4,7 +4,7 @@ import Match from "./Match";
 import Buttons from "./buttons";
 import LOGO1 from "../lib/icons/LOGO1.svg";
 
-class Settings extends React.PureComponent {
+class SettingsMenu extends React.PureComponent {
   render() {
     console.log(this.props);
     return (
@@ -16,4 +16,4 @@ class Settings extends React.PureComponent {
 }
 }
 
-export default connect(null, {})(Settings);
+export default connect(null, {})(SettingsMenu);
