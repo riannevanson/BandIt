@@ -7,9 +7,9 @@ import SettingsMenu from "./SettingsMenu";
 class SettingsContainer extends React.PureComponent {
   render() {
     console.log(this.props);
-    return (      <div>
+    return (
             <div className="SettingsContainer">
-              <div className="Settings">
+              <div className="SettingsMenuContainer">
                 <SettingsMenu />
               </div>
               <div className="cardAndButtons">
@@ -18,7 +18,7 @@ class SettingsContainer extends React.PureComponent {
               </div>
 
             </div>
-          </div>
+
 
 
 

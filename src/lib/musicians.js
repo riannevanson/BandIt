@@ -24,6 +24,7 @@ export const musicians = [
   description: 'I am a very passioned beginner. I also love puppies.',
   skillLevel: 2,
   genre: 'rock',
+  chat:'Yes, I would like to meet...',
   picture: img1
 },
 
@@ -56,6 +57,7 @@ export const musicians = [
   instrument: 'Singer',
   description: 'Let s rock and roll!',
   skillLevel: 1,
+  chat:'20:00 will be fine',
   genre: 'rock',
   picture: img3
 },
@@ -76,6 +78,7 @@ export const musicians = [
   name: 'Freddy',
   age: 18,
   instrument: 'piano',
+  chat:'Yes, I would like to meet...',
   description: 'Just starting and looking for friends',
   skillLevel: 3,
   picture: img5
@@ -88,6 +91,7 @@ export const musicians = [
   instrument: 'base gitar',
   description: 'Crazy music mike they say',
   skillLevel: 2,
+  chat:'No problem...',
   genre: 'rock',
   picture: img5
 },

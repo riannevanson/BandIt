@@ -8,10 +8,14 @@ import  SwipePageContainer  from './components/SwipePageContainer'
 import MatchContainer from './components/MatchContainer'
 import SignInForm from './components/SignInForm'
 import SignUpForm from './components/SignUpForm'
+import { Link } from "react-router-dom";
 
 import SettingsContainer from './components/SettingsContainer'
 
-import LOGO1 from './lib/icons/LOGO1.svg'
+import TextLogoBar from './lib/icons/TextLogoBar.svg'
+import settings from './lib/icons/gear.svg'
+import likesIcon from './lib/icons/likesIcon.svg'
+import messages from './lib/icons/messages.svg'
 
 
 class App extends Component {
@@ -21,8 +25,13 @@ class App extends Component {
      <Provider store={store}>
       <div className="App">
         <header className="App-header">
-          <img src={LOGO1} className="App-logo" alt="logo" />
-      
+          <Link to={`/`}><img src={TextLogoBar} className="App-logo" alt="logo" /></Link>
+          <div className="iconsContainer--header">
+<Link to={`/settings`}><img src={settings} className="Icon--header" alt="logo" /></Link>
+          {/* <Link to={`/`}><img src={likesIcon} className="Icon--header" alt="logo" /></Link>
+          <Link to={`/`}><img src={messages} className="Icon--header" alt="logo" /></Link> */}
+          </div>
+
         </header>
 
         <main className="App-intro">
