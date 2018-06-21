@@ -7,6 +7,7 @@ import { Provider } from 'react-redux'
 import  SwipePageContainer  from './components/SwipePageContainer'
 import MatchContainer from './components/MatchContainer'
 import SignInForm from './components/SignInForm'
+import SignUpForm from './components/SignUpForm'
 
 import SettingsContainer from './components/SettingsContainer'
 
@@ -21,7 +22,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={LOGO1} className="App-logo" alt="logo" />
-          {/* <h1 className="App-title">Bandit</h1> */}
+      
         </header>
 
         <main className="App-intro">
@@ -29,6 +30,7 @@ class App extends Component {
           <Route exact path={"/"} component={ SwipePageContainer } />
 
           <Route exact path={"/sign_in"} component={ SignInForm } />
+          <Route exact path={"/sign_up"} component={ SignUpForm } />
 
 
           <Route exact path={"/settings"} component={ SettingsContainer } />

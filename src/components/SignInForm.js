@@ -18,12 +18,13 @@ class SignInForm extends Component {
 
   submit = () => {
     this.props.submitForm(this.state.username, this.state.password)
-  
+
   }
 
   render() {
     console.log(this.state)
     return (
+      <div className="SignInForm">
       <div className="input-row">
         <label>UserName</label>
         <input onChange={this.handleUserNameChange} type="text"/>
@@ -34,6 +35,7 @@ class SignInForm extends Component {
         <button onClick={this.submit}>Submit</button>
         <h1>{ this.props.currentUser.username }</h1>
       </div>
+    </div>
     )
   }
 }
