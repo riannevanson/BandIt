@@ -9,7 +9,7 @@ class MatchContainer extends React.PureComponent {
     console.log(this.props);
     return (
       <div className="matchContainerPage">
-<h1>Matches:</h1>
+      <h1>Matches:</h1>
         <div className="matchCardsContainer">
           {" "}
           {this.props.MatchedArtists.map(match => {

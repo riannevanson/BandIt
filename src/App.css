@@ -1,17 +1,19 @@
 .App {
-  text-align: center;
+
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 2.5rem;
+
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+  background-color:  #CC181e;
+  height: 2.5rem;
+  padding: 5px;
   color: white;
+  display: flex;
 }
 
 .App-title {
@@ -55,7 +57,7 @@
 
 .swipePageContainer{
   display: flex;
-justify-content: center;
+justify-content: flex-start;
 
 }
 .textualContent{
@@ -68,18 +70,28 @@ justify-content: center;
 }
 
 .cardAndButtons{
-  width: 30%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+
+align-items: center;
 }
 
 
+.matchContainerPage{
+flex-direction: column;
+width: 100%;
+}
+
 .MatchContainer{
-  width: 30%;
+  width: 40%;
   height: 70%;
-  background-color: grey;
+  background-color:  #F2F2F2 ;
+  display: flex;
 }
 
 .matchCardsContainer{
   display: flex;
-  align-items: center;
+
   flex-direction: column;
 }
