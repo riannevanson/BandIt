@@ -1,7 +1,7 @@
 import * as React from "react";
 import { connect } from "react-redux";
 import Card from "./Card";
-import Buttons from "./Buttons";
+import Buttons from "./buttons";
 import MatchContainer from "./MatchContainer";
 
 
