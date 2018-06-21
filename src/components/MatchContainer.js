@@ -1,7 +1,7 @@
 import * as React from "react";
 import { connect } from "react-redux";
 import Match from "./Match";
-import Buttons from "./Buttons";
+import Buttons from "./buttons";
 
 class MatchContainer extends React.PureComponent {
   componentDidMount() {}

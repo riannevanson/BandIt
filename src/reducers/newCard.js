@@ -3,6 +3,6 @@ export default (state = {}, action = {}) => {
     case 'NEW_CARD':
       return action.payload
     default:
-      return state 
+      return state
   }
 }
