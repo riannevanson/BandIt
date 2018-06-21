@@ -1,4 +1,4 @@
-import { SIGNUP_FORM } from '../actions/SignUpForm'
+import { SIGNUP_FORM } from '../actions/signUpForm'
 
 const initialState = {}
 

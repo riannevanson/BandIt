@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import { SignUpForm } from '../actions/form'
+import { signUpForm } from '../actions/signUpForm'
 import { connect } from 'react-redux'
 
-class SignInForm extends Component {
+class SignUpForm extends Component {
   state = {
     name: '',
     email: '',
@@ -51,7 +51,7 @@ class SignInForm extends Component {
         <input onChange={ this.handleConfirmChange } type="text"/>
         <span className="error"></span>
         <button onClick={ this.signUp }>Sign up</button>
-        <h1>{ this.props.currentUser.name }</h1>
+        {/* <h1>{ this.props.currentUser.name }</h1> */}
       </div>
     </div>
     )
@@ -65,4 +65,4 @@ class SignInForm extends Component {
 //   };
 // };
 
-export default connect(null, { })(SignUpForm)
+export default connect(null, { SignUpForm })(SignUpForm)
