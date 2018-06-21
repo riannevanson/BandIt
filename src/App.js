@@ -6,6 +6,7 @@ import store from './store'
 import { Provider } from 'react-redux'
 import  SwipePageContainer  from './components/SwipePageContainer'
 import MatchContainer from './components/MatchContainer'
+import SignInForm from './components/SignInForm'
 import LOGO1 from './lib/icons/LOGO1.svg'
 
 
@@ -21,6 +22,7 @@ class App extends Component {
         <main className="App-intro">
 
           <Route exact path={"/"} component={ SwipePageContainer } />
+          <Route exact path={"/sign_in"} component={ SignInForm } />
           {/* <Route exact path={"/match"} component={ MatchContainer } /> */}
         </main>
       </div>
