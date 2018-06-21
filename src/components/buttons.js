@@ -4,6 +4,8 @@ import { connect } from "react-redux";
 import { newCard } from "../actions/swipe";
 import {musicians} from "../lib/musicians"
 import * as logic from "../lib/logic";
+import Like from "../lib/icons/Like.svg";
+import Dislike from "../lib/icons/Dislike.svg";
 
 class Buttons extends Component {
 
@@ -31,15 +33,16 @@ class Buttons extends Component {
     console.log(this.props);
 
     return (
-      <div>
+		
+      <div className="likeButtonContainer">
 
-				<button className="like-dislike" onClick={this.newDislike}>
-          Nah...
-        </button>
+				<div className="like-dislike" onClick={this.newDislike}>
+          <img className="image-like-dislike" src={Like} />
+        </div>
 
-        <button className="like-dislike" onClick={this.newLike}>
-          Lets jam!
-        </button>
+        <div className="like-dislike" onClick={this.newLike}>
+        <img className="image-like-like" src={Dislike} />
+			</div>
 
 
 
