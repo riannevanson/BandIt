@@ -9,8 +9,13 @@ class Buttons extends Component {
 
 
 	activeCard = () => {
-		this.props.newCard(logic.randomCard(this.props.musicians));
-	};
+		if (this.props.musicians.length >= 1) {
+		return this.props.newCard(logic.randomCard(this.props.musicians))
+		console.log('musicians left to like')
+	} else {
+	 return window.alert('No one left to jam with. Try again?')
+	}
+}
 
  	newLike = () => {
 		this.props.setLike(this.props.randomUser)
@@ -20,7 +25,6 @@ class Buttons extends Component {
 
 	newDislike = () => {
 		this.props.setDislike(this.props.randomUser)
-		console.log('im getting called dislike, nooooo')
 		this.activeCard()
 	}
 
