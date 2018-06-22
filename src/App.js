@@ -33,7 +33,14 @@ class App extends Component {
             {/* <img src={LOGO1} className="App-logo" alt="logo" /> */}
 
             <Link to={`/`}><img src={TextLogoBar} className="App-logo" alt="logo" /></Link>
+
+            <Link to={`/bands`}><button className="switchMatches">Find Bands</button></Link>
+            <Link to={`/`}><button className="switchMatches">Find Musicians</button></Link>
+
             <div className="iconsContainer--header">
+
+
+
               <Link to={`/settings`}><img src={settings} className="Icon--header" alt="logo" /></Link>
               {/* <Link to={`/`}><img src={likesIcon} className="Icon--header" alt="logo" /></Link>
               <Link to={`/`}><img src={messages} className="Icon--header" alt="logo" /></Link> */}

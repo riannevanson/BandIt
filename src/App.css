@@ -40,7 +40,13 @@
   height: 2rem;
   width: 2rem;
   margin-right: 2rem;
-}
+  display:flex;}
+
+  .switchMatches{
+    margin-left: 10rem;
+    height: 2rem;
+  }
+
 /* -------------------MATCHCARD COMPONENT ------------------- */
 .matchCard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);

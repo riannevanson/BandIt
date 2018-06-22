@@ -12,9 +12,7 @@ class MatchContainer extends React.PureComponent {
     return (
       <div className="matchContainerPage">
         <div className="headerProfile">
-          <Link to={`/bands`}><div className="switchMatches">Find Bands</div></Link>
-          <Link to={`/`}><div className="switchMatches">Find Musicians</div></Link>
-
+      
           <img className="profilePicture" alt='' src={LOGO1} />
           <div className="profileText">Menno</div>
         </div>
