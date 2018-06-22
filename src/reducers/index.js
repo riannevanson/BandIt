@@ -3,12 +3,14 @@ import  musicians  from './musicians'
 import  MatchedArtists  from './MatchedArtists'
 import newCard from './newCard'
 import form from './form'
-import SignUpForm from './SignUpForm'
+import NewUser from './NewUser'
+
 
 export default combineReducers({
   musicians,
   MatchedArtists,
   newCard,
   form,
-  SignUpForm
+  NewUser
+
 })

@@ -1,10 +1,10 @@
-import { LOGIN_FORM } from '../actions/SignUpForm'
+import { SIGNUP_FORM } from '../actions/NewUser'
 
 const initialState = {}
 
 export default (state = initialState, action = {}) => {
   switch (action.type) {
-  case LOGIN_FORM:
+  case SIGNUP_FORM:
     return action.payload
   default:
     return state
