@@ -6,7 +6,7 @@ import store from './store'
 import { Provider } from 'react-redux'
 import  SwipePageContainer  from './components/SwipePageContainer'
 import  ProfileContainer  from './components/ProfileContainer'
-// import MatchContainer from './components/MatchContainer'
+
 import SignInForm from './components/SignInForm'
 import NewUser from './components/NewUser'
 
@@ -15,8 +15,11 @@ import { Link } from "react-router-dom"
 import SettingsContainer from './components/SettingsContainer'
 import TextLogoBar from './lib/icons/TextLogoBar.svg'
 import settings from './lib/icons/gear.svg'
-// import likesIcon from './lib/icons/likesIcon.svg'
-// import messages from './lib/icons/messages.svg'
+
+import  bandSwipePageContainer  from './bandComponents/SwipePageContainer'
+
+
+
 
 
 class App extends Component {
@@ -42,6 +45,7 @@ class App extends Component {
           <main className="App-intro">
 
             <Route exact path={"/"} component={ SwipePageContainer } />
+              <Route exact path={"/bands"} component={ bandSwipePageContainer } />
 
             <Route exact path={"/sign_in"} component={ SignInForm } />
 
