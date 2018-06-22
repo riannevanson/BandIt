@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { submitForm } from '../actions/form'
 import { connect } from 'react-redux'
 import { Link } from "react-router-dom"
+import '../SignIn.css'
 
 class SignInForm extends Component {
   state = {
@@ -27,16 +28,16 @@ class SignInForm extends Component {
     return (
       <div className="SignInContainer">
       <div className="input-row">
-        <label>UserName</label>
-        <input onChange={this.handleUserNameChange} type="text"
+        <label className='name'>UserName</label>
+        <input className='input' onChange={this.handleUserNameChange} type="text"
 
         //    value='Username'maxlength="19" onfocus="if(this.value === this.defaultValue)this.value=''"
         // onblur="if(this.value==='')this.value=this.defaultValue"
 />
 
         <span className="error"></span>
-        <label>Password</label>
-        <input onChange={this.handlePasswordChange} type="text" />
+        <label className='password'>Password</label>
+        <input className='input' onChange={this.handlePasswordChange} type="text" />
         <span className="error"></span>
         <h4>Forgot your password? <Link to={"/sign_in"}>Click here</Link></h4>
     <Link to={`/`}><button onClick={this.submit}>Submit</button> </Link>
