@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { signUpForm } from '../actions/NewUser'
 import { connect } from "react-redux";
+import { Link } from "react-router-dom"
 
 
 class NewUser extends Component {
@@ -30,7 +31,7 @@ class NewUser extends Component {
 
   }
   render() {
-    console.log(this.state.confirm)
+
     return (
       <div className="newUser">
         <div className="input-row">
@@ -50,8 +51,8 @@ class NewUser extends Component {
           <input onChange={this.handleConfirmChange} type="text"/>
           <span className="error"></span>
 
-          <button onClick={this.submit}>Submit</button>
-          <h1>{ this.props.newUser.username }</h1>
+          <Link to={`/`}> <button onClick={this.submit}>Submit</button> </Link>
+          {/* <h1>{ this.props.newUser.username }</h1> */}
 
         </div>
       </div>
@@ -59,7 +60,7 @@ class NewUser extends Component {
   }
 }
 const mapStateToProps = (state) => {
-  console.log(state)
+
   return {
     newUser: state.NewUser
   };

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { submitForm } from '../actions/form'
 import { connect } from 'react-redux'
+import { Link } from "react-router-dom"
 
 class SignInForm extends Component {
   state = {
@@ -22,18 +23,27 @@ class SignInForm extends Component {
   }
 
   render() {
-    console.log(this.state)
+
     return (
-      <div className="SignInForm">
+      <div className="SignInContainer">
       <div className="input-row">
         <label>UserName</label>
-        <input onChange={this.handleUserNameChange} type="text"/>
+        <input onChange={this.handleUserNameChange} type="text"
+
+        //    value='Username'maxlength="19" onfocus="if(this.value === this.defaultValue)this.value=''"
+        // onblur="if(this.value==='')this.value=this.defaultValue"
+/>
+
         <span className="error"></span>
         <label>Password</label>
-        <input onChange={this.handlePasswordChange} type="text"/>
+        <input onChange={this.handlePasswordChange} type="text" />
         <span className="error"></span>
-        <button onClick={this.submit}>Submit</button>
-        <h1>{ this.props.currentUser.username }</h1>
+        <h4>Forgot your password? <Link to={"/sign_in"}>Click here</Link></h4>
+    <Link to={`/`}><button onClick={this.submit}>Submit</button> </Link>
+
+        <h4>New user?<Link to={"/newUser"}> Sign Up</Link></h4>
+
+
 
       </div>
     </div>
@@ -42,7 +52,7 @@ class SignInForm extends Component {
 }
 
 const mapStateToProps = (state) => {
-  console.log(state)
+
   return {
     currentUser: state.form
   };
