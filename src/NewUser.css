@@ -1,0 +1,67 @@
+.logo {
+
+
+}
+
+
+
+.UserContainer {
+font-family: 'Roboto', sans-serif;
+height: 100%;
+width: 100%;
+display: flex;
+background-color: #FFF;
+align-items: center;
+justify-content: center;
+margin: 50px;
+padding: 50px;
+}
+
+.SignUp {
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+  text-align: center;
+}
+.input1 {
+  height: 10px;
+  width: 400px;
+  display: block;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+
+}
+.ForgetPassword {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  text-align: center;
+  text-decoration: none;
+
+}
+.button {
+  display: block;
+  /* margin-left: 13rem; */
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+  background-color: #2793c8;
+  font-size: 19px;
+
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+
+
+}
+
+/* .NewUser {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  text-align: center;
+}
+.LinkClickHere {
+  text-decoration: none;
+
+} */

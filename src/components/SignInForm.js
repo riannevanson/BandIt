@@ -3,6 +3,7 @@ import { submitForm } from '../actions/form'
 import { connect } from 'react-redux'
 import { Link } from "react-router-dom"
 import '../SignIn.css'
+import LOGO from '../lib/icons/LOGO.svg'
 
 class SignInForm extends Component {
   state = {
@@ -27,27 +28,29 @@ class SignInForm extends Component {
 
     return (
       <div className="SignInContainer">
-      <div className="input-row">
-        <label className='name'>UserName</label>
-        <input className='input' onChange={this.handleUserNameChange} type="text"
+        <div className="input-row">
+          <img src={LOGO} className="logo" alt="logo" />
+          <h3 className='SignIn'>Sign In</h3>
 
-        //    value='Username'maxlength="19" onfocus="if(this.value === this.defaultValue)this.value=''"
-        // onblur="if(this.value==='')this.value=this.defaultValue"
-/>
+          <input className='input1' onChange={this.handleUserNameChange} type="text" placeholder='Username'
+          />
 
-        <span className="error"></span>
-        <label className='password'>Password</label>
-        <input className='input' onChange={this.handlePasswordChange} type="text" />
-        <span className="error"></span>
-        <h4>Forgot your password? <Link to={"/sign_in"}>Click here</Link></h4>
-    <Link to={`/`}><button onClick={this.submit}>Submit</button> </Link>
+          <span className="error"></span>
 
-        <h4>New user?<Link to={"/newUser"}> Sign Up</Link></h4>
+          <input className='input1' onChange={this.handlePasswordChange} type="text" placeholder='Password' />
+          <span className="error"></span>
+          <h4 className="ForgetPassword">Forgot your password?
+
+          <Link to={"/sign_in"} className="ForgetPassword">Click here</Link></h4>
+
+          <Link to={`/`}><button onClick={this.submit} className="button" >Sign In</button> </Link>
+
+          <h4 className='NewUser'>New user?<Link to={"/newUser"} className='LinkClickHere'> Sign Up</Link></h4>
 
 
 
+        </div>
       </div>
-    </div>
     )
   }
 }

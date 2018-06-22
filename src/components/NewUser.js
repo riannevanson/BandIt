@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { signUpForm } from '../actions/NewUser'
 import { connect } from "react-redux";
 import { Link } from "react-router-dom"
+import LOGO from '../lib/icons/LOGO.svg'
 
 
 class NewUser extends Component {
@@ -33,25 +34,27 @@ class NewUser extends Component {
   render() {
 
     return (
-      <div className="newUser">
+      <div className="UserContainer">
         <div className="input-row">
-          <label>UserName</label>
-          <input onChange={this.handleUserNameChange} type="text"/>
+          <img src={LOGO} className="logo" alt="logo" />
+            <h3 className='SignIn'>Sign Up</h3>
+
+          <input  className='input1' onChange={this.handleUserNameChange} type="text" placeholder='Username'/>
           <span className="error"></span>
 
-          <label>Email</label>
-          <input onChange={this.handleEmailChange} type="text"/>
+
+          <input className='input1' onChange={this.handleEmailChange} type="text" placeholder='Email'/>
           <span className="error"></span>
 
-          <label>Password</label>
-          <input onChange={this.handlePasswordChange} type="text"/>
+
+          <input className='input1' onChange={this.handlePasswordChange} type="text" placeholder='Password'/>
           <span className="error"></span>
 
-          <label>Confirm Password</label>
-          <input onChange={this.handleConfirmChange} type="text"/>
+
+          <input className='input1' onChange={this.handleConfirmChange} type="text" placeholder='Confirm Password'/>
           <span className="error"></span>
 
-          <Link to={`/`}> <button onClick={this.submit}>Submit</button> </Link>
+          <Link to={`/`}> <button onClick={this.submit} className="button">Submit</button> </Link>
           {/* <h1>{ this.props.newUser.username }</h1> */}
 
         </div>
