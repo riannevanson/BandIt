@@ -1,8 +1,8 @@
-export const SIGNUP_FORM = 'SIGNUP_FORM'
+export const LOGIN_FORM = 'LOGIN_FORM'
 
-export const signUpForm = (username,email, password, confirm) => {
+export const loginForm = (username,email, password, confirm) => {
   return {
-    type: SIGNUP_FORM,
+    type: LOGIN_FORM,
     payload: {
       username,
       email,

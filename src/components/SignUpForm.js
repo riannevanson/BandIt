@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { signUpForm } from '../actions/signUpForm'
+import { loginForm } from '../actions/SignUpForm'
 import { connect } from 'react-redux'
 
 class SignUpForm extends Component {
@@ -10,23 +10,24 @@ class SignUpForm extends Component {
     confirm: ''
   }
 
-  handlePasswordChange = (event) => {
+  handleNameChange = (event) => {
     this.setState({ name: event.target.value})
   }
 
-  handleUserNameChange = (event) => {
+  handleEmailChange = (event) => {
     this.setState({ email: event.target.value})
   }
 
-  handleUserNameChange = (event) => {
+  handlePasswordChange = (event) => {
     this.setState({ password: event.target.value})
   }
-  handleUserNameChange = (event) => {
+  handleConfirmChange = (event) => {
     this.setState({ confirm: event.target.value})
   }
 
   submit = () => {
     this.props.signUpForm(this.state.name, this.state.email, this.state.password, this.state.confirm)
+    console.log(this.state)
 
   }
 
@@ -47,22 +48,23 @@ class SignUpForm extends Component {
         <input onChange={ this.handlePasswordChange } type="text"/>
         <span className="error"></span>
 
-        <label>Confirm</label>
+        <label>Confirm Password</label>
         <input onChange={ this.handleConfirmChange } type="text"/>
         <span className="error"></span>
-        <button onClick={ this.signUp }>Sign up</button>
-        {/* <h1>{ this.props.currentUser.name }</h1> */}
+
+        <button onClick={ this.submit }>Sign up</button>
+        <h1>{ this.props.newUser.username }</h1>
       </div>
     </div>
     )
   }
 }
 
-// const mapStateToProps = (state) => {
-//   console.log(state)
-//   return {
-//     currentUser: state.form
-//   };
-// };
+const mapStateToProps = (state) => {
+  console.log(state)
+  return {
+    newUser: state.SignUpForm
+  };
+};
 
-export default connect(null, { SignUpForm })(SignUpForm)
+export default connect(mapStateToProps, { SignUpForm })(SignUpForm)

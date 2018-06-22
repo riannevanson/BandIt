@@ -5,7 +5,7 @@ import { connect } from 'react-redux'
 class SignInForm extends Component {
   state = {
     username: '',
-    password: '',
+    password: ''
   }
 
   handlePasswordChange = (event) => {
@@ -34,6 +34,7 @@ class SignInForm extends Component {
         <span className="error"></span>
         <button onClick={this.submit}>Submit</button>
         <h1>{ this.props.currentUser.username }</h1>
+
       </div>
     </div>
     )
