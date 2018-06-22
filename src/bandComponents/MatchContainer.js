@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 // import Buttons from "./buttons";
 import LOGO1 from "../lib/icons/LOGO1.svg";
 // import circle from "../lib/icons/circle.svg";
+import { Link } from "react-router-dom"
 
 class MatchContainer extends React.PureComponent {
   render() {
@@ -11,8 +12,9 @@ class MatchContainer extends React.PureComponent {
     return (
       <div className="matchContainerPage">
         <div className="headerProfile">
+      
           <img className="profilePicture" alt='' src={LOGO1} />
-          <div className="profileText">BestbandEver</div>
+          <div className="profileText">Menno</div>
         </div>
         <div className="headerMatches">Matches:</div>
         <div className="matchCardsContainer">
