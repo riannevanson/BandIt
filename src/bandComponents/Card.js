@@ -20,7 +20,7 @@ class Card extends React.PureComponent {
             <span>{this.props.randomUser.name}</span>
             <br />
             <br />
-            instrument: {this.props.randomUser.instrument}
+            instruments: {this.props.randomUser.instrument}
             <br />
             <br />
             genre: {this.props.randomUser.genre}
@@ -41,7 +41,7 @@ class Card extends React.PureComponent {
 
 const mapStateToProps = function(state) {
   return {
-    musicians: state.musicians,
+    musicians: state.bands,
     randomUser: state.newCard
   };
 };

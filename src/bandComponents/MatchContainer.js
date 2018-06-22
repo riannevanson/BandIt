@@ -12,7 +12,7 @@ class MatchContainer extends React.PureComponent {
       <div className="matchContainerPage">
         <div className="headerProfile">
           <img className="profilePicture" alt='' src={LOGO1} />
-          <div className="profileText">BestbandEver</div>
+          <div className="profileText">Menno</div>
         </div>
         <div className="headerMatches">Matches:</div>
         <div className="matchCardsContainer">
