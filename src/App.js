@@ -5,6 +5,7 @@ import { Route } from 'react-router-dom'
 import store from './store'
 import { Provider } from 'react-redux'
 import  SwipePageContainer  from './components/SwipePageContainer'
+import  ProfileContainer  from './components/ProfileContainer'
 // import MatchContainer from './components/MatchContainer'
 import SignInForm from './components/SignInForm'
 import NewUser from './components/NewUser'
@@ -49,6 +50,7 @@ class App extends Component {
 
 
             <Route exact path={"/settings"} component={ SettingsContainer } />
+            <Route exact path={"/profile"} component={ ProfileContainer } />
 
           </main>
         </div>
