@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import Match from "./Match";
 import Buttons from "./buttons";
 import LOGO1 from "../lib/icons/LOGO1.svg";
+import circle from "../lib/icons/circle.svg";
 
 class MatchContainer extends React.PureComponent {
   render() {
@@ -20,12 +21,14 @@ class MatchContainer extends React.PureComponent {
             return (
               <div className="matchCard">
                 <img className="matchImage" src={match.picture} />
+                <img className="circle" src={match.circle} />
                 <div className="textualContent">
                   <span> {match.name}</span>
                   <br />
                   <br />
-                  {match.description}
-            
+                  <div class="chat">{match.chat}</div>
+
+
 
                 </div>
               </div>

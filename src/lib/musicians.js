@@ -12,6 +12,7 @@ import img10 from './images/10.png'
 import img11 from './images/11.png'
 import img12 from './images/12.png'
 import img13 from './images/13.png'
+import circle from './icons/circle.svg'
 
 
 export const musicians = [
@@ -24,6 +25,7 @@ export const musicians = [
   description: 'I am a very passioned beginner. I also love puppies.',
   skillLevel: 2,
   genre: 'rock',
+  chat:'Yes, I would like to meet...',
   picture: img1
 },
 
@@ -34,6 +36,7 @@ export const musicians = [
   instrument: 'violin',
   description: 'I love the violin, but still learning',
   skillLevel: 1,
+  match: circle,
   genre: 'rock',
   picture: img1
 },
@@ -46,6 +49,7 @@ export const musicians = [
   description: 'Let s rock and roll!',
   skillLevel: 1,
   genre: 'rock',
+  match: circle,
   picture: img2
 },
 
@@ -56,6 +60,8 @@ export const musicians = [
   instrument: 'Singer',
   description: 'Let s rock and roll!',
   skillLevel: 1,
+  chat:'20:00 will be fine...',
+  match: circle,
   genre: 'rock',
   picture: img3
 },
@@ -66,7 +72,9 @@ export const musicians = [
   age: 42,
   instrument: 'base gitar',
   description: 'Music and beers is all I need',
+  match: circle,
   skillLevel: 1,
+
   genre: 'rock',
   picture: img4
 },
@@ -76,6 +84,7 @@ export const musicians = [
   name: 'Freddy',
   age: 18,
   instrument: 'piano',
+  chat:'Yes, I would like to meet...',
   description: 'Just starting and looking for friends',
   skillLevel: 3,
   picture: img5
@@ -87,7 +96,9 @@ export const musicians = [
   age: 18,
   instrument: 'base gitar',
   description: 'Crazy music mike they say',
+  match: circle,
   skillLevel: 2,
+  chat:'No problem...',
   genre: 'rock',
   picture: img5
 },
@@ -98,6 +109,7 @@ export const musicians = [
   age: 25,
   instrument: 'violin',
   description: 'Classical music',
+  chat:'20:00 will be fine...',
   skillLevel: 1,
   genre: 'rock',
   picture: img6
@@ -120,6 +132,8 @@ export const musicians = [
   age: 30,
   instrument: 'Singer',
   description: 'Singing under the shower',
+  chat:'20:00 will be fine...',
+  match: circle,
   skillLevel: 1,
   genre: 'rock',
   picture: img7
@@ -131,6 +145,8 @@ export const musicians = [
   age: 42,
   instrument: 'base gitar',
   description: 'Music and beers is all I need',
+  chat:'20:00 will be fine...',
+  match: circle,
   skillLevel: 1,
   genre: 'rock',
   picture: img8
@@ -142,16 +158,19 @@ export const musicians = [
   age: 18,
   instrument: 'piano',
   description: 'Just starting and looking for friends',
+  match: circle,
+  chat:'20:00 will be fine...',
   skillLevel: 3,
   picture: img9
 },
 
 {
-  id: 1,
+  id: 15,
   name: 'Bas',
   age: 18,
   instrument: 'base gitar',
   description: 'Crazy music mike they say',
+  match: circle,
   skillLevel: 2,
   picture: img10
 },
@@ -164,6 +183,7 @@ export const musicians = [
   instrument: 'violin',
   description: 'I love the violin, but still learning',
   skillLevel: 1,
+  match: circle,
   picture: img10
 },
 
@@ -185,6 +205,7 @@ export const musicians = [
   instrument: 'Singer',
   description: 'Singing under the shower',
   skillLevel: 1,
+  match: circle,
   genre: 'rock',
   picture: img12
 },
