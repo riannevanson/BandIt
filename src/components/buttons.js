@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { setLike, setDislike } from "../actions/buttons";
 import { connect } from "react-redux";
 import { newCard } from "../actions/swipe";
-import { musicians } from "../lib/musicians";
+// import { musicians } from "../lib/musicians";
 import * as logic from "../lib/logic";
 import Like from "../lib/icons/Like.svg";
 import Dislike from "../lib/icons/Dislike.svg";
@@ -33,11 +33,11 @@ class Buttons extends Component {
     return (
       <div className="likeButtonContainer">
         <div className="like-dislike" onClick={this.newDislike}>
-          <img className="image-like-like" src={Dislike} />
+          <img className="image-like-like" alt='' src={Dislike} />
         </div>
 
         <div className="like-dislike" onClick={this.newLike}>
-          <img className="image-like-dislike" src={Like} />
+          <img className="image-like-dislike" alt='' src={Like} />
         </div>
       </div>
     );

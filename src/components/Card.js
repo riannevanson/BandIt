@@ -14,7 +14,7 @@ class Card extends React.PureComponent {
     return (
       <div className="cardContainer">
         <div className="card">
-          <img className="cardImage" src={this.props.randomUser.picture} />
+          <img className="cardImage" alt="" src={this.props.randomUser.picture} />
           <div className="textualContent">
             {" "}
             <span>{this.props.randomUser.name}</span>
